@@ -1,0 +1,61 @@
+name: EmpireBase
+version: '${project.version}'
+main: com.zyneonstudios.nerotvlive.projectsbase.Main
+api-version: 1.18
+authors: [ nerotvlive ]
+description: The source of Zyneon Studios mod projects
+
+commands:
+  author:
+    aliases: [project,projectsbase,source,zyneon]
+  book:
+    aliases: [buch,writable,feder,feather]
+  broadcast:
+    aliases: [bc,alert]
+  character:
+    aliases: [char,chareditor,charactereditor,editor,ceditor]
+  chatgpt:
+    aliases: [ ask,chatg,gpt,gtp,chatgtp,clayton,jarvis,siri,alexa,siggi,cortana,ai,ki ]
+  clearchat:
+    aliases: [chatclear,cc,clearc,chatc]
+  day:
+  feed:
+  fly:
+  gamemode:
+    aliases: [gm,spielmodus,sm]
+  god:
+  heal:
+  invsee:
+  maintenance:
+  money:
+  lock:
+  lockmode:
+  night:
+  npc:
+    aliases: [pnpc]
+  ping:
+  poweruser:
+    aliases: [pu,mohistoperatorcommand,magmaoperatorcommand,moc,op,operator,superuser,su]
+  rain:
+  roleplay:
+    aliases: [rp]
+  say:
+  shout:
+    aliases: [s,schreien]
+  speed:
+  srl:
+    aliases: [stop,srs,serverstop,serverrestart,serverreload,restart,rl,rs,reload,end]
+  sun:
+  team:
+    aliases: [teammode]
+  tell:
+    aliases: [t,m,msg]
+  thunder:
+  trust:
+  unlock:
+  warp:
+    aliases: [spawn]
+  whisper:
+    aliases: [w,f,flüstern]
+  whitelist:
+    aliases: [list,white-list]
