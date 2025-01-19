@@ -2,7 +2,7 @@ package com.zyneonstudios.nerotvlive.projectsbase.locks.managers;
 
 import com.zyneonstudios.nerotvlive.projectsbase.Main;
 import com.zyneonstudios.nerotvlive.projectsbase.utils.storage.Storage;
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.block.Block;

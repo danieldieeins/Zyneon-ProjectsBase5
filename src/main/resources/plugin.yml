@@ -1,7 +1,7 @@
-name: EmpireBase
+name: ProjectsBase5
 version: '${project.version}'
 main: com.zyneonstudios.nerotvlive.projectsbase.Main
-api-version: 1.18
+api-version: 1.21
 authors: [ nerotvlive ]
 description: The source of Zyneon Studios mod projects
 
@@ -59,3 +59,5 @@ commands:
     aliases: [w,f,flüstern]
   whitelist:
     aliases: [list,white-list]
+  world:
+    aliases: [welt,map,karte]

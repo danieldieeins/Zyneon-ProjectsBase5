@@ -213,20 +213,10 @@ public class WarpAPI {
     }
 
     public static Location getCurrentSpawn(Player player) {
-        if(!player.getWorld().equals(Bukkit.getWorlds().get(0))) {
-            return Main.getUser(player).getLastLoc();
-        }
-        double falkenwacht = new Location(player.getWorld(),-135,68,-181).distance(player.getLocation());
-        double tiefenstein = new Location(player.getWorld(),30251,66,-10081).distance(player.getLocation());
-        double silberfels = new Location(player.getWorld(),-14307,122,5429).distance(player.getLocation());
-        if(falkenwacht<tiefenstein&&falkenwacht<silberfels) {
-            return getWarp("falkenwacht");
-        } else if(tiefenstein<falkenwacht&&tiefenstein<silberfels) {
-            return getWarp("tiefenstein");
-        } else if(silberfels<falkenwacht&&silberfels<tiefenstein) {
-            return getWarp("silberfels");
-        } else {
-            return getWarp("spawn");
+        try {
+            return WarpAPI.getWarp("spawn");
+        } catch (Exception e) {
+            return Bukkit.getWorlds().getFirst().getSpawnLocation();
         }
     }
 

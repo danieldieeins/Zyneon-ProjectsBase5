@@ -173,7 +173,7 @@ public final class Main extends JavaPlugin {
         initCommand(warpCommand,warpCommand);
         initCommand(new WhisperCommand());
         initCommand(whitelistCommand,whitelistCommand);
-        //initCommand(new WorldCommand());
+        initCommand(new WorldCommand());
 
         Communicator.sendRaw("§0");
         Communicator.sendRaw("§0");
